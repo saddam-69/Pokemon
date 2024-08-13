@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-accueil, .page-combat {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.combat-zone {
+  margin-top: 20px;
+}
