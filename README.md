@@ -1,4 +1,4 @@
-Pokémon Combat
+Pokémon 
 Description
 Le projet Pokémon Combat est une application web qui simule des combats de Pokémon en utilisant les données de l'API PokeAPI. Les utilisateurs peuvent créer 
 une équipe de Pokémon, et engager des combats en utilisant les statistiques et compétences des Pokémon. Le projet est développé avec ReactJS pour le frontend et 
@@ -21,37 +21,6 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 --> Node.js (v14.x ou supérieur)
 --> MongoDB (local ou via MongoDB Atlas)
 --> Git
-
-Installation
-1. Cloner le dépôt
-Clonez ce dépôt GitHub sur votre machine locale :
---> git clone https://github.com/saddam-69/Pokemon.git
-    cd pokemon-combat
-
-2. Installation des dépendances
--Frontend
---> cd pokemon-combat
-    npm install
-   
--Backend
---> cd backend-pokemon
-    npm install
-    
-3. Configuration des variables d'environnement
-Créez un fichier <.env> dans le dossier backend-pokemon avec les variables suivantes :
---> MONGO_URI=<votre_url_mongodb>
-    PORT=5000
-Remplacez <votre_url_mongodb> par l'URL de votre base de données MongoDB.
-
-4. Démarrage de l'application
-Démarrer le Backend
---> cd backend-pokemon
-    node app.js
-
-Démarrer le Frontend
---> cd pokemon-combat
-    npm start
-L'application sera accessible à l'adresse http://localhost:3000.
 
 Utilisation
 1-- Création d'une équipe : Accédez à la page de création d'équipe, choisissez vos Pokémon préférés, et ajoutez-les à votre équipe.
